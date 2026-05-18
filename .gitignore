@@ -1,0 +1,42 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+streamlit/
+*.cache
+
+# 数据文件 - 不上传CSV数据，仅保留README
+data/ml-latest/
+data/ml-latest-small/
+!data/README.md
+
+# 环境变量
+.env
+.env.local
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
